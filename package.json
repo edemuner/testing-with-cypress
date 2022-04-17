@@ -1,0 +1,22 @@
+{
+  "name": "cypress-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edemuner/testing-with-cypress.git"
+  },
+  "author": "Eduardo Demuner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edemuner/testing-with-cypress/issues"
+  },
+  "homepage": "https://github.com/edemuner/testing-with-cypress#readme",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  }
+}
