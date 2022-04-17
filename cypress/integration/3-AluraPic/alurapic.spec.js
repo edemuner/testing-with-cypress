@@ -35,4 +35,16 @@ describe('Login e registro de usuarios alura pic', () => {
         cy.get('input[formcontrolname="userName"]').type('User').blur()
         cy.contains('ap-vmessage', 'Must be lower case').should('be.visible')
     })
+
+    it.only('fazer login de usuario valido', () => {
+        cy.login('flavio', '123')
+        cy.contains('a', '(Logout)').should('be.visible')
+    })
+
+    it.only('fazer login de usuario invalido', () => {
+        cy.login('eduardo', '0123')
+        cy.on('window:alert', (str) => {
+            expect(str).to.equal('Invalid user name or password')
+        })
+    })
 })
