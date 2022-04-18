@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-18T13:42:38.735Z",
+    "end": "2022-04-18T13:42:53.269Z",
+    "duration": 14534,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ace19148-ffd5-4076-9421-9b01cb98fcdc",
+      "title": "",
+      "fullFile": "cypress/integration/3-AluraPic/alurapic.spec.js",
+      "file": "cypress/integration/3-AluraPic/alurapic.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "29b209a4-11a6-425b-a729-d0562f9a69a0",
+          "title": "Login e registro de usuarios alura pic",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "registrar novo usuário corretamente: edu",
+              "fullTitle": "Login e registro de usuarios alura pic registrar novo usuário corretamente: edu",
+              "timedOut": null,
+              "duration": 6453,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.register(usuario.email, usuario.fullName, usuario.userName, usuario.password);",
+              "err": {},
+              "uuid": "a8c63a22-920c-484c-af17-97f6eb6d16e0",
+              "parentUUID": "29b209a4-11a6-425b-a729-d0562f9a69a0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "registrar novo usuário corretamente: lili",
+              "fullTitle": "Login e registro de usuarios alura pic registrar novo usuário corretamente: lili",
+              "timedOut": null,
+              "duration": 3547,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.register(usuario.email, usuario.fullName, usuario.userName, usuario.password);",
+              "err": {},
+              "uuid": "ac9d418d-cc90-4e50-b8de-3985eff08398",
+              "parentUUID": "29b209a4-11a6-425b-a729-d0562f9a69a0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "registrar novo usuário corretamente: tetena",
+              "fullTitle": "Login e registro de usuarios alura pic registrar novo usuário corretamente: tetena",
+              "timedOut": null,
+              "duration": 2259,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.register(usuario.email, usuario.fullName, usuario.userName, usuario.password);",
+              "err": {},
+              "uuid": "0df9c8c8-44f8-4c75-b5ee-dfc5ebd8842e",
+              "parentUUID": "29b209a4-11a6-425b-a729-d0562f9a69a0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a8c63a22-920c-484c-af17-97f6eb6d16e0",
+            "ac9d418d-cc90-4e50-b8de-3985eff08398",
+            "0df9c8c8-44f8-4c75-b5ee-dfc5ebd8842e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12259,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reporterDir": "cypress/report/mochawesome-report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -48,8 +48,13 @@ describe('Login e registro de usuarios alura pic', () => {
         })
     })
 
-    it.only('registrar novo usuário corretamente', () => {
-        cy.register('validmail@server.com', 'Eduardo Oliveira', 'edemuner1', '123456789')
-        cy.contains('h4', 'Login').should('be.visible')
+    const usuarios = require('../../fixtures/usuarios.json')
+    usuarios.forEach(usuario => {
+        it.only(`registrar novo usuário corretamente: ${usuario.userName}`, () => {
+            cy.register(usuario.email, usuario.fullName, usuario.userName, usuario.password)
+            
+        })
     })
+
+    
 })

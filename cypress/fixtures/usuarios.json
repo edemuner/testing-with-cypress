@@ -1,0 +1,20 @@
+[
+    {
+        "email":"eduardo@mail.com",
+        "fullName":"eduardo arruda",
+        "userName":"edu",
+        "password":"areallyvalidpw"
+    },
+    {
+        "email":"alice@mail.com",
+        "fullName":"alice arruda",
+        "userName":"lili",
+        "password":"areallyvalidpw"
+    },
+    {
+        "email":"atena@mail.com",
+        "fullName":"atena arruda",
+        "userName":"tetena",
+        "password":"areallyvalidpw"
+    }
+]
